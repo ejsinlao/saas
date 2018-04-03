@@ -17,6 +17,8 @@
 
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
+@import 'font-awesome-sprockets';
+@import 'font-awesome';
 
 //Typgraphy Style
 h1,h2,h3 {
@@ -38,7 +40,7 @@ h1,h2,h3 {
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a{
   color: white;
-  //this feature only works in sass
+  //this feature only works in sass(sassy css)
   &:hover{
     color: white;
     opacity: 0.75;
