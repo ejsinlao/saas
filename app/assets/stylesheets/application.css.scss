@@ -35,7 +35,14 @@ h1,h2,h3 {
 .navbar{
   border:none;
 }
-
+.navbar-brand{
+  font-family:'Roboto',sans-serif;
+  font-weight: 800;
+}
+.nav .navbar-nav .navbar-right{
+  font-family:'Roboto',sans-serif;
+}
+            
 
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a{
